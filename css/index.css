@@ -215,3 +215,43 @@ footer nav a {
 #box10 {
     background: dodgerblue;
 }
+
+/* about page */
+
+.about-info {
+    border-bottom: 1px dashed black;
+    padding: 0px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    border-bottom: 1px dashed black;
+    width: 372px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.info-title {
+    border: 1px solid red;
+    margin-top: 10px
+}
+
+.info-learn-more {
+    border: 2px solid black;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    width: 125px;
+    border-radius: 15px;
+}
+
+.box-row {
+    display: flex;
+}
+
+.together-info {
+    border: 1px solid red;
+    width: 770px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
