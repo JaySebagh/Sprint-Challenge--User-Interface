@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+  
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -143,4 +143,162 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.lambda-logo {
+    /* border: 1px solid red; */
+}
+
+.nav-menu a {
+    color: black;
+    text-decoration: none;
+    /* border: 1px solid red; */
+    padding: 10px 30px 0px 30px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    padding: 20px 10px 0px 0;
+    margin-left: 30px;
+    margin-top: 10px
+}
+
+.header {
+    display: flex;
+    /* border: 1px solid red; */
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.banner {
+    margin-bottom: 30px;
+    /* border: 1px solid red; */
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+/* about page */
+
+.about-info {
+    border-bottom: 1px dashed black;
+    padding: 0px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    border-bottom: 1px dashed black;
+    width: 372px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.info-title {
+    /* border: 1px solid red; */
+    margin-top: 10px
+}
+
+.info-learn-more {
+    border: 2px solid black;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    width: 125px;
+    border-radius: 15px;
+}
+
+.box-row {
+    display: flex;
+}
+
+.together-info {
+    /* border: 1px solid red; */
+    width: 770px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+/* blog page */
+
+.blog-the {
+    border: 3px dashed black;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.main-blog {
+    /* border: 1px solid red; */
+    height: 350px;
+    display: flex;
+}
+
+.blog-text {
+    /* border: 1px solid red; */
+    padding: 10px;
+    text-align: justify;
+}
+
+.blog-continued {
+    text-align: justify;
+    margin-bottom: 100px;
+}
+
+.lambdaup {
+    font-size: 1000px;
+    font-family: "Titillium Web";
+    font-weight: bolder;
+}
+
+.lambdadiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lambda {
+    color: maroon;
+    animation: flash 2s infinite alternate;
+  }
+  
+@keyframes flash {
+    from { opacity: 1; }
+    to { opacity: 0; }
 }
