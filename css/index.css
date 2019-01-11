@@ -280,3 +280,25 @@ footer nav a {
     text-align: justify;
     margin-bottom: 100px;
 }
+
+.lambdaup {
+    font-size: 1000px;
+    font-family: "Titillium Web";
+    font-weight: bolder;
+}
+
+.lambdadiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lambda {
+    color: maroon;
+    animation: flash 2s infinite alternate;
+  }
+  
+@keyframes flash {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
